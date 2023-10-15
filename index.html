@@ -15,7 +15,8 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg sticky-top bg-body-tertiary p-3"
+      id="nav"
+      class="navbar navbar-expand-lg sticky-top bg-body-tertiary p-1"
       data-bs-theme="dark"
     >
       <div class="container-md">
@@ -34,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home"
+              <a class="nav-link" aria-current="page" href="#"
                 ><i class="menu-icons fa-solid fa-house"></i> Home</a
               >
             </li>
@@ -53,7 +54,7 @@
       </div>
     </nav>
     <header>
-      <div id="home" class="container-md mt-5 text-light">
+      <div class="container-md mt-5 text-light hreflink">
         <h1 class="accent mb-3">Savor the Flavor of New York</h1>
         <p class="mb-3">
           Welcome to Sizzle & Slice, where a slice of the Big Apple meets the
@@ -68,7 +69,7 @@
           tradition.
         </p>
         <div
-          id="carouselExampleAutoplaying"
+          id="carouselAutoplaying"
           class="carousel slide"
           data-bs-ride="carousel"
         >
@@ -98,7 +99,7 @@
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-target="#carouselAutoplaying"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -107,7 +108,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-target="#carouselAutoplaying"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -117,182 +118,192 @@
       </div>
     </header>
     <main>
-      <div id="menu" class="container-md mt-5 text-light">
-        <h2 class="accent mb-3">Menu - All items 89kr</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 mt-2">
-              <div class="card bg-dark text-light h-100">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Classic Margherita</h5>
-                  <h6 class="accent mb-2">Tomato, Mozzarella, Basil</h6>
-                  <p class="card-text">
-                    The timeless Margherita pizza is a masterpiece of
-                    simplicity. Fresh tomatoes, creamy mozzarella, and fragrant
-                    basil combine for an authentic New York experience.
-                  </p>
+      <section id="menu">
+        <div class="container-md mt-5 text-light">
+          <h2 class="accent mb-3">Menu - All items 89kr</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="card bg-dark text-light h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">
+                      Classic Margherita
+                    </h5>
+                    <h6 class="accent mb-2">Tomato, Mozzarella, Basil</h6>
+                    <p class="card-text">
+                      The timeless Margherita pizza is a masterpiece of
+                      simplicity. Fresh tomatoes, creamy mozzarella, and
+                      fragrant basil combine for an authentic New York
+                      experience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="card bg-dark text-light h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">
+                      Meat Lover's Dream
+                    </h5>
+                    <h6 class="accent mb-2">
+                      Sausage, Pepperoni, Bacon, Ground Beef, Mozzarella, Tomato
+                      Sauce
+                    </h6>
+                    <p class="card-text">
+                      Indulge in a carnivore's delight! Our Meat Lover's Dream
+                      features a generous combination of savory meats and gooey
+                      mozzarella atop a rich tomato sauce.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="card bg-dark text-light h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">
+                      Pepperoni Perfection
+                    </h5>
+                    <h6 class="accent mb-2">
+                      Pepperoni, Mozzarella, Tomato Sauce
+                    </h6>
+                    <p class="card-text">
+                      Our Pepperoni Perfection pizza is a symphony of savory
+                      flavors. Sliced pepperoni, gooey mozzarella, and zesty
+                      tomato sauce make it a New York classic.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mt-2">
-              <div class="card bg-dark text-light h-100">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Meat Lover's Dream</h5>
-                  <h6 class="accent mb-2">
-                    Sausage, Pepperoni, Bacon, Ground Beef, Mozzarella, Tomato
-                    Sauce
-                  </h6>
-                  <p class="card-text">
-                    Indulge in a carnivore's delight! Our Meat Lover's Dream
-                    features a generous combination of savory meats and gooey
-                    mozzarella atop a rich tomato sauce.
-                  </p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="card bg-dark text-light h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">Veggie Delight</h5>
+                    <h6 class="accent mb-2">
+                      Bell Peppers, Onions, Mushrooms, Black Olives, Mozzarella,
+                      Tomato Sauce
+                    </h6>
+                    <p class="card-text">
+                      For our vegetarian friends, the Veggie Delight offers a
+                      colorful medley of fresh vegetables and melted mozzarella
+                      cheese, all on a tomato sauce base.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="card bg-dark text-light h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">
+                      White Garlic Supreme
+                    </h5>
+                    <h6 class="accent mb-2">
+                      Garlic Cream Sauce, Mozzarella, Spinach, Mushrooms,
+                      Artichoke Hearts
+                    </h6>
+                    <p class="card-text">
+                      Elevate your taste buds with the White Garlic Supreme.
+                      Creamy garlic sauce, fresh spinach, earthy mushrooms, and
+                      artichoke hearts unite on our crispy crust.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="card bg-dark text-light h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">BBQ Chicken Bliss</h5>
+                    <h6 class="accent mb-2">
+                      BBQ Sauce, Grilled Chicken, Red Onions, Mozzarella,
+                      Cilantro
+                    </h6>
+                    <p class="card-text">
+                      Savor the smoky goodness of our BBQ Chicken Bliss. Tender
+                      grilled chicken, red onions, and fresh cilantro dance on a
+                      bed of tangy BBQ sauce.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mt-2">
-              <div class="card bg-dark text-light h-100">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">
-                    Pepperoni Perfection
-                  </h5>
-                  <h6 class="accent mb-2">
-                    Pepperoni, Mozzarella, Tomato Sauce
-                  </h6>
-                  <p class="card-text">
-                    Our Pepperoni Perfection pizza is a symphony of savory
-                    flavors. Sliced pepperoni, gooey mozzarella, and zesty
-                    tomato sauce make it a New York classic.
-                  </p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="card bg-dark text-light h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">Hawaiian Paradise</h5>
+                    <h6 class="accent mt-2">
+                      Tomato Sauce, Ham, Pineapple, Mozzarella
+                    </h6>
+                    <p class="card-text">
+                      Transport yourself to a tropical paradise with our
+                      Hawaiian Pizza. Juicy pineapple and savory ham on tomato
+                      sauce bring a slice of the islands to your plate.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 mt-2">
-              <div class="card bg-dark text-light h-100">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Veggie Delight</h5>
-                  <h6 class="accent mb-2">
-                    Bell Peppers, Onions, Mushrooms, Black Olives, Mozzarella,
-                    Tomato Sauce
-                  </h6>
-                  <p class="card-text">
-                    For our vegetarian friends, the Veggie Delight offers a
-                    colorful medley of fresh vegetables and melted mozzarella
-                    cheese, all on a tomato sauce base.
-                  </p>
+              <div class="col-md-4 mt-2">
+                <div class="card bg-dark text-light h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">
+                      Buffalo Chicken Kick
+                    </h5>
+                    <h6 class="accent mt-2">
+                      Buffalo Sauce, Grilled Chicken, Red Onions, Mozzarella,
+                      Blue Cheese Drizzle
+                    </h6>
+                    <p class="card-text">
+                      Spice up your day with our Buffalo Chicken Kick. Grilled
+                      chicken, red onions, and mozzarella meet fiery buffalo
+                      sauce, finished with a blue cheese drizzle.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4 mt-2">
-              <div class="card bg-dark text-light h-100">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">
-                    White Garlic Supreme
-                  </h5>
-                  <h6 class="accent mb-2">
-                    Garlic Cream Sauce, Mozzarella, Spinach, Mushrooms,
-                    Artichoke Hearts
-                  </h6>
-                  <p class="card-text">
-                    Elevate your taste buds with the White Garlic Supreme.
-                    Creamy garlic sauce, fresh spinach, earthy mushrooms, and
-                    artichoke hearts unite on our crispy crust.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mt-2">
-              <div class="card bg-dark text-light h-100">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">BBQ Chicken Bliss</h5>
-                  <h6 class="accent mb-2">
-                    BBQ Sauce, Grilled Chicken, Red Onions, Mozzarella, Cilantro
-                  </h6>
-                  <p class="card-text">
-                    Savor the smoky goodness of our BBQ Chicken Bliss. Tender
-                    grilled chicken, red onions, and fresh cilantro dance on a
-                    bed of tangy BBQ sauce.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 mt-2">
-              <div class="card bg-dark text-light h-100">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Hawaiian Paradise</h5>
-                  <h6 class="accent mt-2">
-                    Tomato Sauce, Ham, Pineapple, Mozzarella
-                  </h6>
-                  <p class="card-text">
-                    Transport yourself to a tropical paradise with our Hawaiian
-                    Pizza. Juicy pineapple and savory ham on tomato sauce bring
-                    a slice of the islands to your plate.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mt-2">
-              <div class="card bg-dark text-light h-100">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">
-                    Buffalo Chicken Kick
-                  </h5>
-                  <h6 class="accent mt-2">
-                    Buffalo Sauce, Grilled Chicken, Red Onions, Mozzarella, Blue
-                    Cheese Drizzle
-                  </h6>
-                  <p class="card-text">
-                    Spice up your day with our Buffalo Chicken Kick. Grilled
-                    chicken, red onions, and mozzarella meet fiery buffalo
-                    sauce, finished with a blue cheese drizzle.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mt-2">
-              <div class="card bg-dark text-light h-100">
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Pesto Passion</h5>
-                  <h6 class="accent mt-2">
-                    Pesto Sauce, Cherry Tomatoes, Fresh Mozzarella, Arugula
-                  </h6>
-                  <p class="card-text">
-                    Experience Pesto Passion. Vibrant pesto sauce, sweet cherry
-                    tomatoes, fresh mozzarella, and peppery arugula make for a
-                    refreshing delight.
-                  </p>
+              <div class="col-md-4 mt-2">
+                <div class="card bg-dark text-light h-100">
+                  <div class="card-body">
+                    <h5 class="card-title text-uppercase">Pesto Passion</h5>
+                    <h6 class="accent mt-2">
+                      Pesto Sauce, Cherry Tomatoes, Fresh Mozzarella, Arugula
+                    </h6>
+                    <p class="card-text">
+                      Experience Pesto Passion. Vibrant pesto sauce, sweet
+                      cherry tomatoes, fresh mozzarella, and peppery arugula
+                      make for a refreshing delight.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="contact" class="container mt-5 pb-5 text-light">
-        <h2 class="accent mb-3">Contact Us</h2>
-        <p>
-          We're here to serve you the best New York-style pizza in Eslöv,
-          Sweden! Whether you're craving a classic Margherita or something with
-          a little more zest, don't hesitate to get in touch. Our team is ready
-          to take your orders and answer any questions you may have.
-        </p>
-        <p>
-          Feel free to give us a call during our operating hours, we're open
-          every day of the week except Mondays. We look forward to hearing from
-          you and satisfying your pizza cravings. Tack så mycket!
-        </p>
-        <hr />
-        <p>
-          <i class="menu-icons fa-solid fa-phone"></i>
-          <strong>Telephone</strong> +46 12 345 6789 (14:00 - 23:00)
-        </p>
-        <a href="mailto:sizzleslice.se"
-          ><button class="btn btn-accent mb-3">Email Us</button></a
-        >
-      </div>
+      </section>
+      <section id="contact">
+        <div class="container mt-5 pb-4 text-light">
+          <h2 class="accent mb-3">Contact Us</h2>
+          <p>
+            We're here to serve you the best New York-style pizza in Eslöv,
+            Sweden! Whether you're craving a classic Margherita or something
+            with a little more zest, don't hesitate to get in touch. Our team is
+            ready to take your orders and answer any questions you may have.
+          </p>
+          <p>
+            Feel free to give us a call during our operating hours, we're open
+            every day of the week except Mondays. We look forward to hearing
+            from you and satisfying your pizza cravings. Tack så mycket!
+          </p>
+          <hr />
+          <p>
+            <i class="menu-icons fa-solid fa-phone"></i>
+            <strong>Telephone</strong> +46 12 345 6789 (14:00 - 23:00)
+          </p>
+          <a href="mailto:sizzleslice.se"
+            ><button class="btn btn-accent mb-3">Email Us</button></a
+          >
+        </div>
+      </section>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
