@@ -19,8 +19,16 @@ body {
   background-color: #ec6619;
   border-color: #ec6619;
   color: #ffffff;
+  max-width: 120px;
+  width: 100%;
 
   &:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #ec6619;
+  }
+
+  &:active {
     background-color: #ffffff;
     border-color: #ffffff;
     color: #ec6619;
