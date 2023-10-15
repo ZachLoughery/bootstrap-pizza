@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sizzle & Slice</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg sticky-top bg-body-tertiary p-3"
+      data-bs-theme="dark"
+    >
+      <div class="container-md">
+        <a class="navbar-brand" href="#">Sizzle & Slice</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home"
+                ><i class="menu-icons fa-solid fa-house"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu"
+                ><i class="menu-icons fa-solid fa-pizza-slice"></i> Menu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"
+                ><i class="menu-icons fa-solid fa-phone"></i> Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div id="home" class="container-md mt-5 text-light">
+        <h1 class="accent mb-3">Savor the Flavor of New York</h1>
+        <p class="mb-3">
+          Welcome to Sizzle & Slice, where a slice of the Big Apple meets the
+          heart of Skåne. With three decades of tradition and taste, we proudly
+          bring you the authentic essence of New York-style pizza, crafted with
+          passion and heritage. Our story began with American immigrants who set
+          out to share the flavors of the city that never sleeps, and today, we
+          continue to be a beloved fixture in this charming Swedish town of
+          Eslöv. At Sizzle & Slice, it's not <em>just</em> pizza; it's a slice
+          of history, culture, and pure culinary delight. Join us in this
+          delicious journey where every bite is a taste of nostalgia and
+          tradition.
+        </p>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/pizza-1.webp" class="img-fluid" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/pizza-2.webp" class="img-fluid" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/pizza-3.webp" class="img-fluid" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="menu" class="container-md mt-5 text-light">
+        <h2 class="accent mb-3">Menu - All items 89kr</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mt-2">
+              <div class="card bg-dark text-light h-100">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">Classic Margherita</h5>
+                  <h6 class="accent mb-2">Tomato, Mozzarella, Basil</h6>
+                  <p class="card-text">
+                    The timeless Margherita pizza is a masterpiece of
+                    simplicity. Fresh tomatoes, creamy mozzarella, and fragrant
+                    basil combine for an authentic New York experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="card bg-dark text-light h-100">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">Meat Lover's Dream</h5>
+                  <h6 class="accent mb-2">
+                    Sausage, Pepperoni, Bacon, Ground Beef, Mozzarella, Tomato
+                    Sauce
+                  </h6>
+                  <p class="card-text">
+                    Indulge in a carnivore's delight! Our Meat Lover's Dream
+                    features a generous combination of savory meats and gooey
+                    mozzarella atop a rich tomato sauce.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="card bg-dark text-light h-100">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">
+                    Pepperoni Perfection
+                  </h5>
+                  <h6 class="accent mb-2">
+                    Pepperoni, Mozzarella, Tomato Sauce
+                  </h6>
+                  <p class="card-text">
+                    Our Pepperoni Perfection pizza is a symphony of savory
+                    flavors. Sliced pepperoni, gooey mozzarella, and zesty
+                    tomato sauce make it a New York classic.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mt-2">
+              <div class="card bg-dark text-light h-100">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">Veggie Delight</h5>
+                  <h6 class="accent mb-2">
+                    Bell Peppers, Onions, Mushrooms, Black Olives, Mozzarella,
+                    Tomato Sauce
+                  </h6>
+                  <p class="card-text">
+                    For our vegetarian friends, the Veggie Delight offers a
+                    colorful medley of fresh vegetables and melted mozzarella
+                    cheese, all on a tomato sauce base.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="card bg-dark text-light h-100">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">
+                    White Garlic Supreme
+                  </h5>
+                  <h6 class="accent mb-2">
+                    Garlic Cream Sauce, Mozzarella, Spinach, Mushrooms,
+                    Artichoke Hearts
+                  </h6>
+                  <p class="card-text">
+                    Elevate your taste buds with the White Garlic Supreme.
+                    Creamy garlic sauce, fresh spinach, earthy mushrooms, and
+                    artichoke hearts unite on our crispy crust.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="card bg-dark text-light h-100">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">BBQ Chicken Bliss</h5>
+                  <h6 class="accent mb-2">
+                    BBQ Sauce, Grilled Chicken, Red Onions, Mozzarella, Cilantro
+                  </h6>
+                  <p class="card-text">
+                    Savor the smoky goodness of our BBQ Chicken Bliss. Tender
+                    grilled chicken, red onions, and fresh cilantro dance on a
+                    bed of tangy BBQ sauce.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mt-2">
+              <div class="card bg-dark text-light h-100">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">Hawaiian Paradise</h5>
+                  <h6 class="accent mt-2">
+                    Tomato Sauce, Ham, Pineapple, Mozzarella
+                  </h6>
+                  <p class="card-text">
+                    Transport yourself to a tropical paradise with our Hawaiian
+                    Pizza. Juicy pineapple and savory ham on tomato sauce bring
+                    a slice of the islands to your plate.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="card bg-dark text-light h-100">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">
+                    Buffalo Chicken Kick
+                  </h5>
+                  <h6 class="accent mt-2">
+                    Buffalo Sauce, Grilled Chicken, Red Onions, Mozzarella, Blue
+                    Cheese Drizzle
+                  </h6>
+                  <p class="card-text">
+                    Spice up your day with our Buffalo Chicken Kick. Grilled
+                    chicken, red onions, and mozzarella meet fiery buffalo
+                    sauce, finished with a blue cheese drizzle.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-2">
+              <div class="card bg-dark text-light h-100">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase">Pesto Passion</h5>
+                  <h6 class="accent mt-2">
+                    Pesto Sauce, Cherry Tomatoes, Fresh Mozzarella, Arugula
+                  </h6>
+                  <p class="card-text">
+                    Experience Pesto Passion. Vibrant pesto sauce, sweet cherry
+                    tomatoes, fresh mozzarella, and peppery arugula make for a
+                    refreshing delight.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="container mt-5 pb-5 text-light">
+        <h2 class="accent mb-3">Contact Us</h2>
+        <p>
+          We're here to serve you the best New York-style pizza in Eslöv,
+          Sweden! Whether you're craving a classic Margherita or something with
+          a little more zest, don't hesitate to get in touch. Our team is ready
+          to take your orders and answer any questions you may have.
+        </p>
+        <p>
+          Feel free to give us a call during our operating hours. We look
+          forward to hearing from you and satisfying your pizza cravings. Tack
+          så mycket!
+        </p>
+        <hr>
+        <p>
+          <i class="menu-icons fa-solid fa-phone"></i>
+          <strong>Telephone</strong> +46 12 345 6789 (14:00 - 23:00)
+        </p>
+        <button class="btn btn-accent mb-3">Email Us</button>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/fe2496956d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
