@@ -46,3 +46,13 @@ body {
 .navbar-toggler {
   border: none;
 }
+
+.nav-padding {
+  padding-top: 90px;
+}
+
+@media screen and (max-width: 1500px) {
+  .nav-padding {
+    padding-top: 130px;
+  }
+}
